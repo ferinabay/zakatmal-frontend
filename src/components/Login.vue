@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 mt-5 mx-auto">
-        <form v-on:submit.prevent="Login">
+        <form v-on:submit.prevent="login">
           <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
           <div class="form-group">
             <label for="email">Email Address</label>
